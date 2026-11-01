@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter / generated exports
+# Ignore generated HTML files, but keep application templates
+*.html
+!templates/*.html
+!BotnetDetection.html
+
+# Local secrets and runtime files
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated large model artifacts (retain source and metrics)
+classical_ml/results/*.joblib
+classical_ml/results/*.pkl

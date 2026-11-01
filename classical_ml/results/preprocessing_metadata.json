@@ -1,0 +1,44 @@
+{
+  "selected_features": [
+    "dur",
+    "rate",
+    "sttl",
+    "sload",
+    "dload",
+    "sinpkt",
+    "sjit",
+    "smean",
+    "dmean",
+    "ct_srv_src",
+    "ct_state_ttl",
+    "ct_dst_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm",
+    "ct_src_ltm"
+  ],
+  "removed_correlated_features": [
+    "sbytes",
+    "dbytes",
+    "sloss",
+    "dloss",
+    "dwin",
+    "synack",
+    "ct_src_dport_ltm",
+    "ct_ftp_cmd",
+    "ct_srv_dst"
+  ],
+  "classes": [
+    "Analysis",
+    "Backdoor",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Generic",
+    "Normal",
+    "Reconnaissance",
+    "Shellcode",
+    "Worms"
+  ],
+  "random_state": 42,
+  "test_size": 0.3
+}
